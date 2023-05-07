@@ -2,17 +2,17 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH= \
-    UUID= \
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
-    NEZHA_TLS= \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
-    SSH_DOMAIN= \
-    ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+    UUID=0f075ce1-bb9d-43eb-96f9-ec32ca9f1bba \
+    NEZHA_SERVER=ip.lgf770.shop \
+    NEZHA_PORT=5555 \
+    NEZHA_KEY=5MV7jduuHWjOX5Yej5 \
+#   NEZHA_TLS= \
+    WEB_DOMAIN=cho.lgf770.eu.org \
+    ARGO_DOMAIN=cho-ws.lgf770.eu.org \
+    SSH_DOMAIN=cho-ssh.lgf770.eu.org \
+    ARGO_AUTH={"AccountTag":"8ed9ff3a925c2db43d6b78b52f801212","TunnelSecret":"g2RXhYThU+aGwySdj3AGJEuNifZKRBm2pN2G2b9sp1g=","TunnelID":"493291de-c449-4d38-aaae-a2c7a11b6230"}  \
+    WEB_USERNAME=choreoadmin \
+    WEB_PASSWORD=choreoadmin
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
